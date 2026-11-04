@@ -209,8 +209,8 @@ button.addEventListener("click", changeColor);
 
 <div id=”chart_div”></div>
 <script type=”text/javascript”>
-google.charts.load(‘current’, { ‘packages’ : [‘corechart’] });
-google.charts.setOnLoadCallback(drawChart);
+   google.charts.load(‘current’, { ‘packages’ : [‘corechart’] });
+   google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
    var data = google.visualization.arrayToDataTable([
@@ -251,6 +251,6 @@ var chart = new google.visualization.ScatterChart(document.getElementById('chart
 chart.draw(data, options);
 }
 </script>
-
+<!DOCTYPE html>
 
 
